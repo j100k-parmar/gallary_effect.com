@@ -208,23 +208,23 @@ h1 {
         /* margin-left: 25%; */
     }
     .main .tab {
-        height: 500px;
-        width: 610px;
+        height: 200px;
+        width: 425px;
         margin-top: 50px;
     }
     .main .tab1 {
-        height: 500px;
-        width: 610px;
+        height: 200px;
+        width: 425px;
         margin-top: 50px;
     }
     .main .tab2 {
-        height: 500px;
-        width: 610px;
+        height: 200px;
+        width: 425px;
         margin-top: 50px;
     }
     .tab2 img {
-        height: 500px;
-        width: 610px;
+        height: 200px;
+        width: 425px;
         margin-top: 50px;
     }
     .row2 {
@@ -233,22 +233,22 @@ h1 {
         padding: 0;
     }
     .card {
-        width: 610px;
-        height: 500px;
+        width: 425px;
+        height: 300px;
     }
     .card-front {
-        width: 610px;
-        height: 500px;
+        height: 300px;
+        width: 425px;
         margin-top: 50px;
     }
     .card-back {
-        width: 610px;
-        height: 500px;
+        height: 300px;
+        width: 425px;
         margin-top: 50px;
     }
     .row2 .tab3 {
-        width: 610px;
-        height: 500px;
+        height: 300px;
+        width: 425px;
         margin-top: 50px;
     }
     .tab3:hover .conn {
@@ -259,11 +259,11 @@ h1 {
     }
     h1 {
         padding: 0;
-        margin: 90px 0 0 170px;
+        margin: 0;
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (min-width:430px) and (max-width: 770px) {
     /* h1 {
         margin: 30px 0 0 390px;
         font-size: 55px;
@@ -302,7 +302,7 @@ h1 {
     }
 }
 
-@media only screen and (max-width:1028px) {
+@media only screen and (min-width:770px) and (max-width:1028px) {
     .card {
         width: 220px;
         height: 250px;
